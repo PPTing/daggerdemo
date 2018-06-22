@@ -71,7 +71,7 @@ public class MainActivityTest {
     @Test
     public void testIsMarginLeftRight(){
         Espresso.onView(ViewMatchers.withId(R.id.bt_left))
-                .check(MarginAssertions.isMarginLeftRight(ViewMatchers.withId(R.id.bt_right),80));
+                .check(MarginAssertions.isMarginLeftRight(ViewMatchers.withId(R.id.bt_right),90));
     }
 
 
