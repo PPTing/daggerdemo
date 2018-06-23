@@ -2,7 +2,6 @@ package me.ppting.draggerdemo;
 
 import android.support.test.espresso.Espresso;
 import android.support.test.espresso.action.ViewActions;
-import android.support.test.espresso.assertion.PositionAssertions;
 import android.support.test.espresso.assertion.ViewAssertions;
 import android.support.test.espresso.matcher.ViewMatchers;
 import android.support.test.rule.ActivityTestRule;
@@ -14,14 +13,6 @@ import org.junit.runner.RunWith;
 
 import me.ppting.draggerdemo.activity.MainActivity;
 import me.ppting.draggerdemo.util.MarginAssertions;
-
-import static android.support.test.espresso.matcher.ViewMatchers.assertThat;
-import static org.hamcrest.Matchers.is;
-
-//import com.google.common.base.Preconditions;
-//import com.google.common.base.Predicate;
-//import com.google.common.collect.Iterables;
-//import com.google.common.collect.Iterators;
 
 /**
  * Created by PPTing on 2018/6/20.
