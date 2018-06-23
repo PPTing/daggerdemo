@@ -6,6 +6,7 @@ import me.ppting.draggerdemo.activity.SecondActivity;
 import me.ppting.draggerdemo.entity.Salad;
 import me.ppting.draggerdemo.model.SaladModel;
 import me.ppting.draggerdemo.third.ThirdActivity;
+import me.ppting.draggerdemo.third.ThirdPresenterImpl;
 
 /**
  * Created by PPTing on 2018/6/19.
@@ -22,4 +23,6 @@ public interface SaladComponent {
     void inject(SecondActivity activity);
 
     void inject(ThirdActivity thirdActivity);
+
+    void inject(ThirdPresenterImpl thirdPresenter);
 }

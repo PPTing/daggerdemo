@@ -7,7 +7,10 @@ import java.util.List;
 
 import javax.inject.Inject;
 
+import me.ppting.draggerdemo.ComponentHolder;
 import me.ppting.draggerdemo.adapter.Items;
+import me.ppting.draggerdemo.net.ApiRequest;
+import me.ppting.draggerdemo.net.NetWorkCallback;
 
 /**
  * Created by PPTing on 2018/6/23.
@@ -17,11 +20,16 @@ import me.ppting.draggerdemo.adapter.Items;
 public class ThirdPresenterImpl implements ThirdContract.Presenter {
 
     private ThirdContract.Model model ;
+
     private ThirdContract.View view ;
+
+    @Inject
+    ApiRequest apiRequest;
 
     @Inject
     public ThirdPresenterImpl(ThirdModel model) {
         this.model = model;
+        ComponentHolder.getSaladComponent().inject(this);
     }
 
     public void init(ThirdContract.View view){
@@ -32,11 +40,17 @@ public class ThirdPresenterImpl implements ThirdContract.Presenter {
 
     @Override
     public void getSomething() {
-        Log.d("ThirdPresenter","get something ");
-        List<Items> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            list.add(new Items("name "+i));
-        }
-        view.showSomething(list);
+
+        apiRequest.getSomething("34567", new NetWorkCallback<List<Items>>() {
+            @Override
+            public void onSuccess(List<Items> items) {
+                view.showSomething(items);
+            }
+
+            @Override
+            public void onFail() {
+
+            }
+        });
     }
 }
