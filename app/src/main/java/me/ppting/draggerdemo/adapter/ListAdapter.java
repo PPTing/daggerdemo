@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import me.ppting.draggerdemo.R;
@@ -18,6 +19,11 @@ import me.ppting.draggerdemo.R;
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder>{
 
     private List<Items> items;
+
+    public ListAdapter(){
+        this.items = new ArrayList<>();
+    }
+
     public ListAdapter(List<Items> items) {
         this.items = items;
     }
@@ -38,6 +44,11 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
     @Override
     public int getItemCount() {
         return items.size();
+    }
+
+    public void setItems(List<Items> items) {
+        this.items = items;
+        notifyDataSetChanged();
     }
 
 

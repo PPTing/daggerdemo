@@ -9,18 +9,27 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.widget.TextView;
 
-import java.util.ArrayList;
 import java.util.List;
 
+import javax.inject.Inject;
+
+import me.ppting.draggerdemo.ComponentHolder;
 import me.ppting.draggerdemo.R;
 import me.ppting.draggerdemo.adapter.Items;
 import me.ppting.draggerdemo.adapter.ListAdapter;
+import me.ppting.draggerdemo.net.ApiRequest;
+import me.ppting.draggerdemo.net.NetWorkCallback;
 
 /**
  * Created by PPTing on 2018/6/21.
  * Description:
  */
 public class SecondActivity extends AppCompatActivity {
+
+    private ListAdapter listAdapter;
+
+    @Inject
+    ApiRequest apiRequest;
 
     public static void start(Context context, String result) {
         Intent intent = new Intent(context, SecondActivity.class);
@@ -32,7 +41,9 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
+        ComponentHolder.getSaladComponent().inject(this);
         initView();
+        getApi();
     }
 
     private void initView() {
@@ -40,13 +51,21 @@ public class SecondActivity extends AppCompatActivity {
         tvResultInSecond.setText(getIntent().getStringExtra("result"));
         RecyclerView rvList = findViewById(R.id.rv_list);
         rvList.setLayoutManager(new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false));
-        //制造数据
-        List<Items> items = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            items.add(new Items("name "+i));
-        }
-        ListAdapter listAdapter = new ListAdapter(items);
+        listAdapter = new ListAdapter();
         rvList.setAdapter(listAdapter);
-        listAdapter.notifyDataSetChanged();
+    }
+
+    private void getApi(){
+        apiRequest.getSomething("param", new NetWorkCallback<List<Items>>() {
+            @Override
+            public void onSuccess(List<Items> items) {
+                listAdapter.setItems(items);
+            }
+
+            @Override
+            public void onFail() {
+
+            }
+        });
     }
 }

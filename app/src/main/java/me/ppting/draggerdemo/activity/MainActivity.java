@@ -18,6 +18,7 @@ import me.ppting.draggerdemo.R;
 import me.ppting.draggerdemo.component.DaggerSaladComponent;
 import me.ppting.draggerdemo.component.SaladComponent;
 import me.ppting.draggerdemo.model.SaladModel;
+import me.ppting.draggerdemo.third.ThirdActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -87,5 +88,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     public void jump2Second(View view) {
         SecondActivity.start(this,tvResult.getText().toString());
+    }
+
+    public void jump2Third(View view) {
+        ThirdActivity.start(this);
     }
 }
