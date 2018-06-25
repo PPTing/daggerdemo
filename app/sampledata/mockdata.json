@@ -1,0 +1,203 @@
+{
+  "menus": [
+    {
+      "menuUrl": "/consultant/saveVisitor",
+      "menuIcon": "input",
+      "menuName": "潜在客户录入",
+      "showOrder": 0,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/input.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/consultant/myConsultantReserve",
+      "menuIcon": "mcReserve",
+      "menuName": "会籍预约",
+      "showOrder": 0,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/mcReserve.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/consultant/saveFollowUp",
+      "menuIcon": "mcSale",
+      "menuName": "销售跟进",
+      "showOrder": 0,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/mcSale.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/consultant/customerReturnVisit",
+      "menuIcon": "mcVisit",
+      "menuName": "客户回访",
+      "showOrder": 0,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/mcVisit.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/qdAppMenu",
+      "menuName": "启迪冰雪课",
+      "showOrder": 1,
+      "iconUrl": "",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/courseWeekView/init",
+      "menuIcon": "course_set",
+      "menuName": "课程设置",
+      "showOrder": 1,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://Reservation",
+      "menuIcon": "Course_Reserve_New",
+      "menuName": "公共课预约",
+      "showOrder": 1,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseReserveNew.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/frReport",
+      "menuIcon": "chart",
+      "menuName": "帆软报表",
+      "showOrder": 1,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/chart.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/review/reviewInfo",
+      "menuIcon": "check",
+      "menuName": "审核",
+      "showOrder": 1,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/check.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/privateCourse/reserveStudents",
+      "menuIcon": "courseList",
+      "menuName": "我的私教预约",
+      "showOrder": 1,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseList.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/privateCourse/courseReserve",
+      "menuIcon": "courseReserve",
+      "menuName": "私教课预约",
+      "showOrder": 2,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseReserve.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/coach/init#/calendar",
+      "menuIcon": "coach_calendar",
+      "menuName": "教练日历",
+      "showOrder": 2,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/coach_calendar.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://Refundlesson",
+      "menuIcon": "Course_Refund",
+      "menuName": "退课申请",
+      "showOrder": 2,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseRefund.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/appMenu/menuInfo/2",
+      "menuIcon": "chart",
+      "menuName": "报表",
+      "showOrder": 2,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/chart.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/coach/init#/course-detail",
+      "menuIcon": "course_detail",
+      "menuName": "课程明细",
+      "showOrder": 3,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_detail.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "native:CameraMonitor",
+      "menuIcon": "monitor",
+      "menuName": "监控",
+      "showOrder": 3,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/monitor.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/coach/init#/manage-students",
+      "menuIcon": "Student_management",
+      "menuName": "学员管理",
+      "showOrder": 4,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/Student_management.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/coach/init#/new-appointment",
+      "menuIcon": "new_order",
+      "menuName": "新的预约",
+      "showOrder": 5,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/new_order.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/consultant/todoListInit",
+      "menuIcon": "toDoList",
+      "menuName": "待办事项",
+      "showOrder": 10,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/todo.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "/statistics/custmorStatistics",
+      "menuIcon": "purpleBarChart",
+      "menuName": "客户统计",
+      "showOrder": 10,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/purpleBarChart.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://ArrangeLesson?lessonType=1",
+      "menuIcon": "purpleBarChart",
+      "menuName": "公开课排课",
+      "showOrder": 10,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/purpleBarChart.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://ArrangeLesson?lessonType=3",
+      "menuIcon": "course_set",
+      "menuName": "教练排课",
+      "showOrder": 11,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://SignAgreement",
+      "menuIcon": "sign",
+      "menuName": "协议签署",
+      "showOrder": 11,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/sign.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://ArrangeLesson?lessonType=4",
+      "menuIcon": "course_set",
+      "menuName": "私教课排课",
+      "showOrder": 12,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
+        "avatar":"@tools:sample/avatars"
+    },
+    {
+      "menuUrl": "react://CourseSchedule",
+      "menuIcon": "course_set",
+      "menuName": "课程预约",
+      "showOrder": 13,
+      "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
+        "avatar":"@tools:sample/avatars"
+    }
+  ]
+}

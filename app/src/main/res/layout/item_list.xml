@@ -8,6 +8,6 @@
         android:id="@+id/item_tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="5yuiopjcvbnm,"/>
+        tools:text="@sample/mockdata.json/menus/menuName"/>
 
 </android.support.constraint.ConstraintLayout>

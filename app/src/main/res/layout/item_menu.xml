@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="94dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/item_work_icon"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        tools:src="@sample/mockdata.json/menus/avatar"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/item_work_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:gravity="center"
+        tools:text="@sample/mockdata.json/menus/menuName" />
+</LinearLayout>
