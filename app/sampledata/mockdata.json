@@ -6,7 +6,7 @@
       "menuName": "潜在客户录入",
       "showOrder": 0,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/input.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/consultant/myConsultantReserve",
@@ -14,7 +14,7 @@
       "menuName": "会籍预约",
       "showOrder": 0,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/mcReserve.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/consultant/saveFollowUp",
@@ -22,7 +22,7 @@
       "menuName": "销售跟进",
       "showOrder": 0,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/mcSale.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/consultant/customerReturnVisit",
@@ -30,14 +30,14 @@
       "menuName": "客户回访",
       "showOrder": 0,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/mcVisit.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/qdAppMenu",
       "menuName": "启迪冰雪课",
       "showOrder": 1,
       "iconUrl": "",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/courseWeekView/init",
@@ -45,7 +45,7 @@
       "menuName": "课程设置",
       "showOrder": 1,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://Reservation",
@@ -53,7 +53,7 @@
       "menuName": "公共课预约",
       "showOrder": 1,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseReserveNew.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/frReport",
@@ -61,7 +61,7 @@
       "menuName": "帆软报表",
       "showOrder": 1,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/chart.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/review/reviewInfo",
@@ -69,7 +69,7 @@
       "menuName": "审核",
       "showOrder": 1,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/check.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/privateCourse/reserveStudents",
@@ -77,7 +77,7 @@
       "menuName": "我的私教预约",
       "showOrder": 1,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseList.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/privateCourse/courseReserve",
@@ -85,7 +85,7 @@
       "menuName": "私教课预约",
       "showOrder": 2,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseReserve.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/coach/init#/calendar",
@@ -93,7 +93,7 @@
       "menuName": "教练日历",
       "showOrder": 2,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/coach_calendar.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://Refundlesson",
@@ -101,7 +101,7 @@
       "menuName": "退课申请",
       "showOrder": 2,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/courseRefund.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/appMenu/menuInfo/2",
@@ -109,7 +109,7 @@
       "menuName": "报表",
       "showOrder": 2,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/chart.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/coach/init#/course-detail",
@@ -117,7 +117,7 @@
       "menuName": "课程明细",
       "showOrder": 3,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_detail.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "native:CameraMonitor",
@@ -125,7 +125,7 @@
       "menuName": "监控",
       "showOrder": 3,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/monitor.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/coach/init#/manage-students",
@@ -133,7 +133,7 @@
       "menuName": "学员管理",
       "showOrder": 4,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/Student_management.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/coach/init#/new-appointment",
@@ -141,7 +141,7 @@
       "menuName": "新的预约",
       "showOrder": 5,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/new_order.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/consultant/todoListInit",
@@ -149,7 +149,7 @@
       "menuName": "待办事项",
       "showOrder": 10,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/todo.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "/statistics/custmorStatistics",
@@ -157,7 +157,7 @@
       "menuName": "客户统计",
       "showOrder": 10,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/purpleBarChart.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://ArrangeLesson?lessonType=1",
@@ -165,7 +165,7 @@
       "menuName": "公开课排课",
       "showOrder": 10,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/purpleBarChart.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://ArrangeLesson?lessonType=3",
@@ -173,7 +173,7 @@
       "menuName": "教练排课",
       "showOrder": 11,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://SignAgreement",
@@ -181,7 +181,7 @@
       "menuName": "协议签署",
       "showOrder": 11,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/sign.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://ArrangeLesson?lessonType=4",
@@ -189,7 +189,7 @@
       "menuName": "私教课排课",
       "showOrder": 12,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     },
     {
       "menuUrl": "react://CourseSchedule",
@@ -197,7 +197,7 @@
       "menuName": "课程预约",
       "showOrder": 13,
       "iconUrl": "http://xports-prd.oss-cn-hangzhou.aliyuncs.com/public/app/icon/course_set.png",
-        "avatar":"@tools:sample/avatars"
+      "avatar":"@tools:sample/avatars"
     }
   ]
 }

@@ -9,12 +9,14 @@
         android:id="@+id/tv_result_in_second"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        tools:visibility="gone"
         tools:text="456789" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        tools:listitem="@layout/item_list"
         app:layout_constraintTop_toBottomOf="@+id/tv_result_in_second" />
 
 </android.support.constraint.ConstraintLayout>
